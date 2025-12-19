@@ -11,6 +11,21 @@
 		01EE85742EF2ED010005AF8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EE85732EF2ED010005AF8C /* ContentView.swift */; };
 		01EE85762EF2ED040005AF8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01EE85752EF2ED040005AF8C /* Assets.xcassets */; };
 		01EE85792EF2ED040005AF8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01EE85782EF2ED040005AF8C /* Preview Assets.xcassets */; };
+		01FDD5632EF4454800657554 /* ExplorerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDD5622EF4454800657554 /* ExplorerViewModel.swift */; };
+		01FDD5652EF4459D00657554 /* TMDBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDD5642EF4459D00657554 /* TMDBService.swift */; };
+		01FDD5672EF445F400657554 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDD5662EF445F400657554 /* MainTabView.swift */; };
+		01FDD5692EF4462300657554 /* MediaDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDD5682EF4462300657554 /* MediaDetailView.swift */; };
+		01FDD56B2EF4467300657554 /* MediaRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDD56A2EF4467300657554 /* MediaRowView.swift */; };
+		01FDD56D2EF446DD00657554 /* MediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDD56C2EF446DD00657554 /* MediaItem.swift */; };
+		01FDD56F2EF4487E00657554 /* ExplorerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDD56E2EF4487E00657554 /* ExplorerView.swift */; };
+		01FDD5712EF44E8F00657554 /* UserMediaStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDD5702EF44E8F00657554 /* UserMediaStatus.swift */; };
+		01FDD5732EF44ECF00657554 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDD5722EF44ECF00657554 /* Playlist.swift */; };
+		01FDD5752EF44F8D00657554 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDD5742EF44F8D00657554 /* FavoritesView.swift */; };
+		01FDD5772EF44FC300657554 /* WatchStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDD5762EF44FC300657554 /* WatchStatusView.swift */; };
+		01FDD5792EF44FE900657554 /* PlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDD5782EF44FE900657554 /* PlaylistsView.swift */; };
+		01FDD57B2EF45A8B00657554 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDD57A2EF45A8B00657554 /* AppTheme.swift */; };
+		01FDD57E2EF55E9C00657554 /* PlaylistDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDD57D2EF55E9C00657554 /* PlaylistDetailView.swift */; };
+		01FDD5802EF5670300657554 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FDD57F2EF5670300657554 /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +34,22 @@
 		01EE85732EF2ED010005AF8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		01EE85752EF2ED040005AF8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01EE85782EF2ED040005AF8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01FDD5622EF4454800657554 /* ExplorerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerViewModel.swift; sourceTree = "<group>"; };
+		01FDD5642EF4459D00657554 /* TMDBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBService.swift; sourceTree = "<group>"; };
+		01FDD5662EF445F400657554 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		01FDD5682EF4462300657554 /* MediaDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaDetailView.swift; sourceTree = "<group>"; };
+		01FDD56A2EF4467300657554 /* MediaRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaRowView.swift; sourceTree = "<group>"; };
+		01FDD56C2EF446DD00657554 /* MediaItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaItem.swift; sourceTree = "<group>"; };
+		01FDD56E2EF4487E00657554 /* ExplorerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplorerView.swift; sourceTree = "<group>"; };
+		01FDD5702EF44E8F00657554 /* UserMediaStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMediaStatus.swift; sourceTree = "<group>"; };
+		01FDD5722EF44ECF00657554 /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		01FDD5742EF44F8D00657554 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		01FDD5762EF44FC300657554 /* WatchStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchStatusView.swift; sourceTree = "<group>"; };
+		01FDD5782EF44FE900657554 /* PlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsView.swift; sourceTree = "<group>"; };
+		01FDD57A2EF45A8B00657554 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		01FDD57C2EF45EAF00657554 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		01FDD57D2EF55E9C00657554 /* PlaylistDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistDetailView.swift; sourceTree = "<group>"; };
+		01FDD57F2EF5670300657554 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +86,22 @@
 				01EE85732EF2ED010005AF8C /* ContentView.swift */,
 				01EE85752EF2ED040005AF8C /* Assets.xcassets */,
 				01EE85772EF2ED040005AF8C /* Preview Content */,
+				01FDD5622EF4454800657554 /* ExplorerViewModel.swift */,
+				01FDD5642EF4459D00657554 /* TMDBService.swift */,
+				01FDD5662EF445F400657554 /* MainTabView.swift */,
+				01FDD5682EF4462300657554 /* MediaDetailView.swift */,
+				01FDD56A2EF4467300657554 /* MediaRowView.swift */,
+				01FDD56C2EF446DD00657554 /* MediaItem.swift */,
+				01FDD56E2EF4487E00657554 /* ExplorerView.swift */,
+				01FDD5702EF44E8F00657554 /* UserMediaStatus.swift */,
+				01FDD5722EF44ECF00657554 /* Playlist.swift */,
+				01FDD5742EF44F8D00657554 /* FavoritesView.swift */,
+				01FDD5762EF44FC300657554 /* WatchStatusView.swift */,
+				01FDD5782EF44FE900657554 /* PlaylistsView.swift */,
+				01FDD57A2EF45A8B00657554 /* AppTheme.swift */,
+				01FDD57C2EF45EAF00657554 /* Config.xcconfig */,
+				01FDD57D2EF55E9C00657554 /* PlaylistDetailView.swift */,
+				01FDD57F2EF5670300657554 /* SplashView.swift */,
 			);
 			path = projet_ios;
 			sourceTree = "<group>";
@@ -137,8 +184,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FDD5692EF4462300657554 /* MediaDetailView.swift in Sources */,
+				01FDD56D2EF446DD00657554 /* MediaItem.swift in Sources */,
+				01FDD5802EF5670300657554 /* SplashView.swift in Sources */,
+				01FDD5652EF4459D00657554 /* TMDBService.swift in Sources */,
+				01FDD57E2EF55E9C00657554 /* PlaylistDetailView.swift in Sources */,
 				01EE85742EF2ED010005AF8C /* ContentView.swift in Sources */,
+				01FDD5772EF44FC300657554 /* WatchStatusView.swift in Sources */,
 				01EE85722EF2ED010005AF8C /* projet_iosApp.swift in Sources */,
+				01FDD56F2EF4487E00657554 /* ExplorerView.swift in Sources */,
+				01FDD5632EF4454800657554 /* ExplorerViewModel.swift in Sources */,
+				01FDD5672EF445F400657554 /* MainTabView.swift in Sources */,
+				01FDD57B2EF45A8B00657554 /* AppTheme.swift in Sources */,
+				01FDD5752EF44F8D00657554 /* FavoritesView.swift in Sources */,
+				01FDD5792EF44FE900657554 /* PlaylistsView.swift in Sources */,
+				01FDD5732EF44ECF00657554 /* Playlist.swift in Sources */,
+				01FDD56B2EF4467300657554 /* MediaRowView.swift in Sources */,
+				01FDD5712EF44E8F00657554 /* UserMediaStatus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,11 +331,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"projet_ios/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MyFlix;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,11 +362,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"projet_ios/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MyFlix;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
