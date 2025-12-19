@@ -6,12 +6,21 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct projet_iosApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           
+            SplashView()
+                .preferredColorScheme(.dark)
         }
+        .modelContainer(for: [
+            UserMediaStatus.self,
+            Playlist.self,
+            PlaylistItem.self
+        ])
     }
 }
+
